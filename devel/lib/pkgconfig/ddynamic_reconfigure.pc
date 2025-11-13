@@ -1,0 +1,8 @@
+prefix=/home/cyz/lidar_camera_slam_cyz/devel
+
+Name: ddynamic_reconfigure
+Description: Description of ddynamic_reconfigure
+Version: 0.4.2
+Cflags: -I/home/cyz/lidar_camera_slam_cyz/src/ddynamic_reconfigure/include
+Libs: -L${prefix}/lib -lddynamic_reconfigure
+Requires: roscpp dynamic_reconfigure

@@ -1,0 +1,23 @@
+<launch>
+    <!-- lidar -->
+    <include file="$(find livox_ros_driver2)/launch_ROS1/msg_MID360.launch">
+        <launch-prefix>bash -c "exec &amp;>/dev/null"</launch-prefix>
+    </include> 
+    <!-- camera -->
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+       <launch-prefix>bash -c "exec &amp;>/dev/null"</launch-prefix>
+    </include>
+    <!-- fast_livo2 -->
+    <include file="$(find fast_livo)/launch/mapping_mid360.launch">
+       <launch-prefix>bash -c "exec &amp;>/dev/null"</launch-prefix>
+    </include>
+
+    <!-- local_planner -->
+    <!-- <include file="$(find vehicle_simulator)/launch/system_real_robot.launch">
+        <launch-prefix>bash -c "exec &amp;>/dev/null"</launch-prefix>
+    </include> -->
+
+    <!-- dsv_planner -->
+    <!-- <include file="$(find dsvp_launch)/launch/dsvp.launch">
+    </include> -->
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/cyz/lidar_camera_slam_cyz/devel
+
+Name: ugv_sdk
+Description: Description of ugv_sdk
+Version: 0.1.6
+Cflags: -I/home/cyz/lidar_camera_slam_cyz/src/ugv_sdk/ugv_sdk/include
+Libs: -L${prefix}/lib -lugv_sdk
+Requires: wrp_io

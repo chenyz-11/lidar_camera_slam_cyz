@@ -1,0 +1,8 @@
+prefix=/home/cyz/lidar_camera_slam_cyz/devel
+
+Name: scout_msgs
+Description: Description of scout_msgs
+Version: 0.3.3
+Cflags: -I/home/cyz/lidar_camera_slam_cyz/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

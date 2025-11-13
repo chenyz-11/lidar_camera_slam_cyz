@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/cyz/lidar_camera_slam_cyz/devel/lib/libscout_messenger.a  CMakeFiles/scout_messenger.dir/src/scout_messenger.cpp.o
+/usr/bin/ranlib /home/cyz/lidar_camera_slam_cyz/devel/lib/libscout_messenger.a

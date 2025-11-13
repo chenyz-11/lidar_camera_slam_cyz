@@ -1,0 +1,18 @@
+<launch>
+    <!-- lidar and fast_lio -->
+    <include file="$(find livox_ros_driver2)/launch_ROS1/msg_MID360.launch">
+        <launch-prefix>bash -c "exec &amp;>/dev/null"</launch-prefix>
+    </include> 
+    <include file="$(find fast_lio)/launch/mapping_mid360.launch">
+       <launch-prefix>bash -c "exec &amp;>/dev/null"</launch-prefix>
+    </include>
+
+    <!-- local_planner -->
+    <include file="$(find vehicle_simulator)/launch/system_real_robot.launch">
+        <launch-prefix>bash -c "exec &amp;>/dev/null"</launch-prefix>
+    </include>
+
+    <!-- dsv_planner -->
+    <!-- <include file="$(find dsvp_launch)/launch/dsvp.launch">
+    </include> -->
+</launch>

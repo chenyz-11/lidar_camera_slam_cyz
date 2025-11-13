@@ -1,0 +1,8 @@
+prefix=/home/cyz/lidar_camera_slam_cyz/install
+
+Name: realsense2_description
+Description: Description of realsense2_description
+Version: 2.3.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

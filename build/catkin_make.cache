@@ -1,0 +1,2 @@
+FAST-LIVO2:base_start:ddynamic_reconfigure:livox_ros_driver:livox_ros_driver2:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:rpg_vikit/vikit_common:rpg_vikit/vikit_py:rpg_vikit/vikit_ros:scout_base/scout_base:scout_base/scout_bringup:scout_base/scout_description:scout_base/scout_msgs:ugv_sdk/ugv_sdk:ugv_sdk/wrp_io
+-DCATKIN_DEVEL_PREFIX=/home/cyz/lidar_camera_slam_cyz/devel -DCMAKE_INSTALL_PREFIX=/home/cyz/lidar_camera_slam_cyz/install -G Unix Makefiles

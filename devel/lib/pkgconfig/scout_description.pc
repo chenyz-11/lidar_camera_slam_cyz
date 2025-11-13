@@ -1,0 +1,8 @@
+prefix=/home/cyz/lidar_camera_slam_cyz/devel
+
+Name: scout_description
+Description: Description of scout_description
+Version: 0.4.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
